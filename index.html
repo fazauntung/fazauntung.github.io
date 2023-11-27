@@ -1,223 +1,115 @@
+<!DOCTYPE html>
 <html lang="en">
-<head>
+<head id="section5">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="icon" type="image/png" href="/Login CSS/1.jpg">
-    <style>
-        .kota {
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            outline-color: black;
-            color: aqua;
-        }
-        .desa {
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            color: blue;
-        }
-        .ini {
-            background-color: aqua;
-            padding: auto;
-            line-height: normal;
-            color: red;
-        }
-    </style>
+    <title>Portofolio Website</title>
+    <link rel="icon" type="image/x-icon" href="Tak berjudul18_20231126220305.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header>
-        <h1>latihanku</h1>
+    <div class="hero">
         <nav>
-            <li><a href="#">Beranda</a></li>
-            <li><a href="#tentang">Tentang Kami</a></li>
-            <li><a href="#">Layanan</a></li>
-            <li><a href="#">Kontak</a></li>
+            <h2 class="logo">Portofo<span>lio</span></h2>
+            <ul>
+                <li><a href="#section5" target="_self">Home</a></li>
+                <li><a href="#section4" target="_self">About Us</a></li>
+                <li><a href="#section3" target="_self">Service</a></li>
+                <li><a href="#section2" target="_self">Skill</a></li>
+                <li><a href="#section1" target="_self">Contact Us</a></li>
+            </ul>
+            <a href="https://www.youtube.com/channel/UCXaFwGg-Or3Ve_EDnkHc8og" class="btn" target="_blank">Subscribe</a>
         </nav>
-    </header>
-    <section>
-        <h1>ini judul utama</h1>
-        <h2>ini judul kedua</h2>
-        <h3>ini judul ketiga</h3>
-        <h4>ini judul ke empat</h4>
-        <h5>ini judul ke lima</h5>
-        <h6>ini judul keenam</h6>
-        <br>
-        <hr>
-        <a href="#tabel">ini adalah tabel</a>
-        <p>ini adalah paragraf</p>
-        <p>elemen ditampilkan dalam font dengan lebar tetap (biasanya Courier), 
-            dan mempertahankan spasi dan jeda baris:
-            di bawah ini adalah pre
-        </p>
-        <pre>
-            ahmad faza jefri cardova
-            nadin andromeda
-            arjun fadli lubis
-            jessica tamikori
-        </pre>
-        <h4>pemformatan</h4>
-        <b>ini tebal atau bold</b>
-        <strong>teks ini penting (strong)</strong> <br>
-        <i>teks ini miring</i> <br>
-        <u>garis bawah</u> <br>
-        <em>teks ini adalah teks penekanan(emphasized)</em> <br>
-        <small>teks ini kecil</small> <br>
-        <p>teks ini adalah <mark>mark</mark> </p>
-        <p>ini <del>dalah</del> yang benar adalah</p>
-        <p>element ins iki seret <del>srt</del> <ins>reset</ins></p>
-        <p>This is <sub>subscripted</sub> text. condong ke bawah</p>
-        <p>This is <sup>superscripted</sup> text. condong ke atas</p>
+        <div class="content">
+            <h4>Hallo, Nama Saya </h4>
+            <h1>Ahmad Faza <span>Jefri Cardova</span></h1>
+            <h3>Saya Seorang MahaSiswa</h3>
+            <div class="newslatter">
+                <form>
+                    <input type="email" name="email" id="mail" placeholder="Ketik Nama Kamu">
+                    <input type="submit" name="submit" value="Gasskenn!!!">
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--secsition start-->
+    <section class="about" id="section4">
+        <div class="main">
+            <img src="fz.png">
+            <div class="about-text">
+                <h2>Tentang Kami</h2>
+                <h5>Developer<span> & Designer</span></h5>
+                <p>Saya,Pelajar berusia 17 tahun dari SMK Pemuda PAPAR dengan jurusan Teknik Komputer dan Jaringan (TKJ), membawa semangat kreatifitas dan keahlian dalam desain menggunakan CorelDRAW dan Photoshop. Selain itu, kami mahir dalam pengembangan web front-end dengan HTML, CSS, dan JavaScript. Dengan semangat belajar yang tinggi, kami tidak hanya menciptakan desain visual yang menarik tetapi juga pengalaman web yang responsif.
+                </p>
+                <button type="button">Let's Talk</button>
+            </div>
+        </div>
     </section>
-    <main>
-        <section id="tentang">
-            <h2>Tentang Kami</h2>
-            <p>Kami adalah sebuah perusahaan yang berkomitmen untuk memberikan solusi terbaik bagi pelanggan kami.</p>
-        </section>
+    <!--service-->
+    <div class="service" id="section3">
+        <div class="title">
+            <h2>Our Service</h2>
+        </div>
 
-        <section id="layanan">
-            <h2>Layanan Kami</h2>
-            <ul>
-                <li>Desain Web</li>
-                <li>Pengembangan Aplikasi</li>
-                <li>Pemasaran Online</li>
-            </ul>
-        </section>
-    </main>
-    <section>
-        <table border="1px" cellspacing="0" cellpadding="8" style="width: 100%; height: 30%">
-            <!--TR 1-->
-            <tr>
-                <td>1,1</td>
-                <td>1,2</td>
-                <td>1,3</td>
-                <td>1,4</td>
-            </tr>
-            <!--TR 2-->
-            <tr>
-                <td>2,1</td>
-                <td colspan="2" rowspan="2" align="center">?</td>
-                <td>2,4</td>
-            </tr>
-            <!--TR 3-->
-            <tr>
-                <td>3,1</td>
-                <td>3,4</td>
-            </tr>
-            <!--TR 4-->
-            <tr>
-                <td>4,1</td>
-                <td>4,2</td>
-                <td>4,3</td>
-                <td>4,4</td>
-            </tr>
-        </table>
-        <table border="1px">
-            <thead>
-                <tr>
-                    <th>Kolom 1</th>
-                    <th>Kolom 2</th>
-                    <th>kolom 3</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Baris 1, Kolom 1</td>
-                    <td>Baris 1, Kolom 2</td>
-                    <td>kosong</td>
-                </tr>
-                <tr>
-                    <td>Baris 2, Kolom 1</td>
-                    <td>Baris 2, Kolom 2</td>
-                    <td>empty</td>
-                </tr>
-            </tbody>
-        </table>
-        <!--dafta html-->
-        <h2>daftar html</h2>
-        <ul id="tabel">
-            <li>teh hijau</li>
-            <li>kopi hitam</li>
-            <li>jahe</li>
-        </ul>
-        <ol start="50">
-            <li>Coffee</li>
-            <li>Tea</li>
-            <li>Milk</li>
-        </ol> 
-        <dl>
-            <dt>Coffee</dt>
-            <dd>- black hot drink</dd>
-            <dd>- black Milk Coffee</dd>
-            <dt>Milk</dt>
-            <dd>- Indo Milk</dd>
-            <dd>- white cold drink</dd>
-        </dl> 
-        <ul>
-            <li>Coffee</li><li>hjg</li>
-            <li>Tea
-            <ul>
-                <li>Black tea</li>
-                <li>Green tea</li>
-            </ul>
-            </li>
-            <li>Milk</li>
-        </ul> 
-    </section>
-    <h2>FRAME</h2>
-    <iframe src="/Login CSS/index.html" style="border: 4px solid red;" height="500px"  width="500px" title="youtube">youtube</iframe>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/vDYP6AKw8bk?si=PxaPw7_He9lizWnL" title="YouTube video player" frameborder="1" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    <p>
-        ini adalah paragraf panjang sekali <br>
-        dan ini panjang  atribut span <span class="ini">ini panjang</span>
-    </p>
-    <div class="kota">
-        <h2>kediri</h2>
-        <p>kediri is the city freedom.</p>
-    </div>
-        <div class="city">
-        <h2>Paris</h2>
-        <p>Paris is the capital of France.</p>
-    </div>
-    
-    <div class="desa">
-        <h2>Tokyo</h2>
-        <p>Tokyo is the capital of Japan.</p>
-    </div>
-    <form action="#">
-        <label for="nama">Nama:</label>
-        <input type="text" id="nama" name="nama" required>
-        <br>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        <br>
-        <label for="pesan">Pesan:</label>
-        <textarea id="pesan" name="pesan" rows="4" cols="50"></textarea>
-        <br>
-        <input type="submit" value="Kirim">
-    </form>
-    <h1>Login</h1>
-    <form id="login-form">
-        <input type="text" id="login-username" placeholder="Username" required>
-        <input type="password" id="login-password" placeholder="Password" required>
-        <button type="button" id="login-button">Login</button>
-    </form>
+        <div class="box">
+            <div class="card">
+                <i class="fa-solid fa-bars"></i>
+                <h5>Web Development</h5>
+                <div class="pra">
+                    <p>✨ Dengan semangat yang tak terbatas dan komitmen untuk menciptakan web yang inovatif, saya siap menghadapi tantangan baru dalam dunia web development. Mari bersama-sama membangun masa depan digital yang menarik!</p>
+                    <p style="text-align: center;">
+                        <a class="button" href="#">Read More</a>
+                    </p>
+                </div>
+            </div>
 
-    <h1>Register</h1>
-    <form id="register-form">
-        <input type="text" id="register-username" placeholder="Username" required>
-        <input type="password" id="register-password" placeholder="Password" required>
-        <button type="button" id="register-button">Register</button>
-    </form>
+            <div class="card">
+                <i class="fa-regular fa-user"></i>
+                <h5>Tentang Kami</h5>
+                <div class="pra">
+                    <p>Saya individu muda berusia 17 tahun dengan semangat tinggi untuk berkreasi di dunia digital. Kami adalah siswa SMK dengan jurusan Teknik Komputer dan Jaringan (TKJ), dan perjalanan kami dalam merambah teknologi telah membawa kami ke berbagai pengalaman menarik.</p>
+                    <p style="text-align: center;">
+                        <a class="button" href="#">Read More</a>
+                    </p>
+                </div>
+            </div>
 
-    <p id="message"></p>
-    <aside>
-        <section>
-            <h2>Bar Samping</h2>
-            <p>Ini adalah area samping yang berisi konten tambahan.</p>
-        </section>
-    </aside>
-    
+            <div class="card">
+                <i class="fa-regular fa-bell"></i>
+                <h5>Desain grafis</h5>
+                <div class="pra">
+                    <p>Dengan mata yang kreatif dan tangan yang lihai, kami menguasai seni desain menggunakan perangkat lunak CorelDRAW dan Photoshop. Kemampuan kami dalam menghadirkan ide-ide visual membuat kami mampu mengkomunikasikan konsep-konsep kreatif melalui desain grafis yang menawan!</p>
+                    <p style="text-align: center;">
+                        <a class="button" href="#">Read More</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---Contact Me-->
+    <div class="contact-me" id="section2">
+        <p>Buat website impianmu sekarang, jadikan visi onlinemu nyata.</p>
+        <a class="button-two" href="https://wa.me/1234567890">Pesan Disini!</a>
+    </div>
+    <!--footer-->
     <footer>
-        <p>Hak Cipta &copy; 2023. Semua Hak Dilindungi.</p>
+        <p>Ahmad Faza Jefri Cardova</p>
+        <p>for more HTML, CSS and coding,<br> memadukan kreativitas dan teknologi untuk menciptakan pengalaman digital yang menarik. </p>
+    <div id="section1">
+        <div class="social">
+            <a href="https://www.facebook.com/jefri.cardova.5/about/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/jefri.cardova/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href=" https://wa.me/1234567890" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </div>
+        <p class="end">&copy; CopyRight By Faza Jefri</p>
     </footer>
 </body>
-  </html>
+</html>
