@@ -1,0 +1,271 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo" ><a href="#desktop-nav">Jefri Cardova</a></div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">Tentang</a></li>
+          <li><a href="#experience">Pengalaman</a></li>
+          <li><a href="#projects">Project</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Jefri Cardova</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">Tentang</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Pengalaman</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Project</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Kontak</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/Tambahkan judul.png" alt="Jefri Cardova profile picture">
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, Saya</p>
+        <h1 class="title">Jefri Cardova</h1>
+        <p class="section__text__p2">Siswa SMK Pemuda Papar</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('./assets/myporto.pdf')">
+            Unduh CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Info Kontak
+          </button>
+        </div>
+        <div id="socials-container">
+          <img src="./assets/6.png" class="icon" onclick="location.href='https://www.linkedin.com/in/ahmad-faza-jefri-cardova-b910962a7/'" alt="My LinkedIn profile">
+          <img src="./assets/2.png" class="icon" onclick="location.href='https://github.com/fazauntung/fazauntung.github.io.git'" alt="My Github profile">
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Kenali Lagi Lebih Lanjut</p>
+      <h1 class="title">Tentang Saya</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img class="about-pic" src="./assets/p3.png" alt="Profile picture">
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img class="icon" src="./assets/5.png" alt="Experience icon">
+              <h3>Pengalaman</h3>
+              <p>5+ Bulan<br>Prakerin Di HMMCOM CCTV Kediri</p>
+            </div>
+            <div class="details-container">
+              <img class="icon" src="./assets/7.png" alt="Education icon">
+              <h3>Education</h3>
+              <p>Sedang Menempuh Perjalanan Sebagai <br/> Siswa SMK jurusan TKJ</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Hallo, Saya Jefri Siswa SMK PEMUDA PAPAR jurusan TKJ. Selama perjalanan akademis saya,
+               saya telah aktif terlibat dalam Praktek Konfigurasi Jaringan secara individu dan Tim,
+                Saya jujur, berkomitmen, suka bekerja keras, Saya bersedia untuk belajar dan berinovasi.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img src="./assets/1.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#experience'">
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Pengalaman</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Pemograman Dasar</h2>
+            <div class="article-container">
+              <article>
+                <img class="icon" src="./assets/3.png" alt="Experience icon">
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img class="icon" src="./assets/3.png" alt="Experience icon">
+                <div>
+                  <h3>CSS</h3>
+                  <p> Upper Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img class="icon" src="./assets/3.png" alt="Experience icon">
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img class="icon" src="./assets/3.png" alt="Experience icon">
+                <div>
+                  <h3>Python</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img class="icon" src="./assets/3.png" alt="Experience icon">
+                <div>
+                  <h3>PHP</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img class="icon" src="./assets/3.png" alt="Experience icon">
+                <div>
+                  <h3>Bootstrap</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Design Grafis</h2>
+            <div class="article-container">
+              <article>
+                <img class="icon" src="./assets/3.png" alt="Experience icon">
+                <div>
+                  <h3>Canva</h3>
+                  <p>Experience</p>
+                </div>
+              </article>
+              <article>
+                <img class="icon" src="./assets/3.png" alt="Experience icon">
+                <div>
+                  <h3>CorelDraw</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img class="icon" src="./assets/3.png" alt="Experience icon">
+                <div>
+                  <h3>Ms.Office</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img class="icon" src="./assets/3.png" alt="Experience icon">
+                <div>
+                  <h3>Photoshop</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="./assets/1.png" class="icon arrow" onclick="location.href='#projects'" alt="">
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Project</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              
+              <video autoplay loop class="project-img">
+                <source src="./assets/Black and White Clean New Website Instagram Post.mp4" type="video/mp4">
+              </video>
+            </div>
+            <h2 class="experience-sub-title project-title">Projek Pertama</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/';">
+                GitHub
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='./fazauntung.github.io-main/index.html';">
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img class="project-img" src="./assets/ty.png" alt="project-1">
+            </div>
+            <h2 class="experience-sub-title project-title">Projek Belajar</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/';">
+                GitHub
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='./Login CSS/index.html';">
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img class="project-img" src="./assets/ui.png" alt="project-1">
+            </div>
+            <h2 class="experience-sub-title project-title">Projek Ketiga saya</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/';">
+                GitHub
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='#desktop-nav';">
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="./assets/1.png" class="icon arrow" onclick="location.href='#contact'" alt="tr">
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Hubungi Jika Perlu</p>
+      <h1 class="title">Kontak Saya</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img src="./assets/email.png" class="icon contact-icon" alt="Email icon">
+          <p><a href="mailto:ahmadfazajefricardova@gmail.com">ahmadfazajefricardova@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img src="./assets/6.png" class="icon contact-icon" alt="Email icon">
+          <p><a href="https://www.linkedin.com/in/ahmad-faza-jefri-cardova-b910962a7/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">Tentang</a></li>
+            <li><a href="#experience">Pengalaman</a></li>
+            <li><a href="#projects">Project</a></li>
+            <li><a href="#contact">Kontak</a></li>
+            <div class="social">
+            <li><a href="https://www.facebook.com/jefri.cardova.5/about/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/jefri.cardova/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://wa.me/087766630907" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
+            </div>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &copy; 2024 Ahmad Faza. All Right Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  
+
+</body></html>
