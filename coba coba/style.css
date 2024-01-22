@@ -1,0 +1,182 @@
+body {
+    font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+  /* ... (previous styles) */
+  
+  header {
+      background-color: #333;
+      color: #fff;
+      padding: 0.5em;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+  
+  .logo img {
+      padding: 0;
+      height: 6em;
+      margin: 0%;
+  }
+  
+  #hamburger-nav{
+    display: none;
+  }
+  .hamburger-menu {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .hamburger-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    width: 30px;
+    cursor: pointer;
+  }
+  
+  .hamburger-icon span {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .menu-links {
+    position: absolute;
+    top: 100%;
+    right: 0%;
+    background-color: white;
+    width: fit-content;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .menu-links a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .menu-links li {
+    list-style: none;
+  }
+  
+  .menu-links.open {
+    max-height: 300px;
+  }
+  
+  .hamburger-icon.open span:first-child {
+    transform: rotate(45deg) translate(10px, 5px);
+  }
+  
+  .hamburger-icon.open span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .hamburger-icon.open span:last-child {
+    transform: rotate(-45deg) translate(10px, -5px);
+  }
+  
+  .hamburger-icon span:first-child {
+    transform: none;
+  }
+  
+  .hamburger-icon span:nth-child(2) {
+    opacity: 1;
+  }
+  
+  .hamburger-icon span:last-child {
+    transform: none;
+  }
+  .profile img {
+      border-radius: 50%;
+      max-width: 60px;
+      height: auto;
+  }
+  
+  /* ... (previous styles) */
+  
+  section#artworks {
+      background-color: #f5f5f5;
+      padding: 2em;
+  }
+  
+  /* ... (any additional styles for your vector artworks) */
+  
+  
+  nav {
+      background-color: #444;
+      padding: 0.5em;
+      text-align: center;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+  }
+  
+  nav li {
+      margin: 0 1em;
+  }
+  
+  nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 0.5em 1em;
+  }
+  
+  section {
+      padding: 2em;
+  }
+  
+  footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1em;
+  }
+  
+  /* Responsive Navigation */
+  @media screen and (max-width: 768px) {
+      nav ul {
+          display: none;
+          flex-direction: column;
+          position: absolute;
+          top: 60px;
+          left: 0;
+          width: 100%;
+          background-color: #b83434;
+      }
+  
+      nav ul.show {
+          display: flex;
+      }
+  
+      nav li {
+          margin: 0;
+          text-align: center;
+      }
+  
+      .burger-menu {
+          display: block;
+          font-size: 1.5em;
+          cursor: pointer;
+      }
+      #hamburger-nav {
+        display: flex;}
+  }

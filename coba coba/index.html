@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Nature Portfolio</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,500&display=swap');
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+      <div class="logo">
+          <img src="logo.png" alt="Your Logo">
+      </div>
+      <h1>My Portfolio</h1>
+      <nav id="hamburger-nav">
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="#home" onclick="toggleMenu()">Beranda</a></li>
+            <li><a href="#portofolio" onclick="toggleMenu()">Portfolio</a></li>
+            <li><a href="#about" onclick="toggleMenu()">Tentang saya</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Kontak</a></li>
+            <li><a href="#artworks" onclick="toggleMenu()">ArtWorks</a></li>
+          </div>
+        </div>
+      </nav>
+  </header>
+
+  <nav>
+      <ul>
+          <li><a href="#home">Beranda</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#artworks">Artworks</a></li>
+      </ul>
+  </nav>
+ 
+
+  <section id="home">
+      <h2>Selamat datang di Web Portfolio</h2>
+      <p>Jelajahi web portofolio ke 3 saya.</p>
+  </section>
+
+  <section id="portfolio">
+      <h2>Portfolio</h2>
+      <p>Projek sedang di kerjakan</p>
+      <!-- Add your project details, images, and descriptions here -->
+  </section>
+
+  <section id="about">
+      <h2>About Me</h2>
+      <p>Learn more about the person behind the lens and their passion for nature.</p>
+      <!-- Add your personal details and background information here -->
+  </section>
+
+  <section id="contact">
+      <h2>Contact</h2>
+      <p>Get in touch with me for collaborations or inquiries.</p>
+      <!-- Add a contact form or provide contact information here -->
+  </section>
+
+  <section id="artworks">
+    <h2>Vector Artworks</h2>
+    <p>Explore my collection of vector artworks:</p>
+    <div class="artworks-gallery">
+        <a href="path/to/artwork1.jpg" data-lightbox="artworks" data-title="Artwork 1">
+            <img src="rty.jpeg" alt="Artwork 1">
+        </a>
+        <a href="path/to/artwork2.jpg" data-lightbox="artworks" data-title="Artwork 2">
+            <img src="rt.jpeg" alt="Artwork 2">
+        </a>
+        <!-- Add more artwork links here -->
+    </div>
+</section>
+  <footer>
+      <p>&copy; 2024 Your Nature Portfolio. All rights reserved.</p>
+  </footer>
+  <script src="main.js"></script>
+
+</body>
+</html>
